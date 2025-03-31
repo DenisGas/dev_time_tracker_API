@@ -50,8 +50,8 @@ The API provides various endpoints for tracking coding activity. You can explore
 
 ### Project Tracking
 - **GET** `/projects` - Retrieve all tracked projects.
-- **POST** `/projects` - Add a new project.
-- **GET** `/projects/{id}` - Get details of a specific project.
+- **POST** `/projects` - Add a new projectStats.
+- **GET** `/projects/{id}` - Get details of a specific projectStats.
 
 ### File Tracking
 - **GET** `/files` - Get a list of tracked files.
@@ -59,6 +59,6 @@ The API provides various endpoints for tracking coding activity. You can explore
 - **GET** `/files/{id}` - Get details of a specific file.
 
 ### Statistics
-- **GET** `/stats/projects` - Get project-related coding time statistics.
+- **GET** `/stats/projects` - Get projectStats-related coding time statistics.
 - **GET** `/stats/files` - Get file-specific coding time statistics.
 
